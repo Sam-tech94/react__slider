@@ -15,9 +15,13 @@ function App() {
     margin: "0 auto"
   };
 
+  const textCenterStyle = {
+    textAlign: "center"
+  };
+
   return (
     <div>
-      <h1>React Slider</h1>
+      <h1 style={textCenterStyle}>React Slider</h1>
       <div style={containerStyles}>
         <ImageSlider slides={slides} parentWidth={500} />
       </div>
